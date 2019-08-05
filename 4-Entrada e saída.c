@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Dados Pessoais e interaÁ„o do usu·rio com o sistema */
+/* Dados Pessoais e intera√ß√£o do usu√°rio com o sistema */
 
 
-char Nome[15]; //podendo digitar atÈ 15 caracteres;
+char Nome[15]; //podendo digitar at√© 15 caracteres;
 char sexo;  // Podendo Digita apenas um Caractere sendo M ou F;
 int Idade; //Numeros Reais
 float salario; //numeros Inteiros(quebrados);
@@ -21,7 +21,7 @@ void main(void)
 	scanf("%d",&Idade);
 	printf("Qual o seu salario atual: ");
 	scanf("%f",&salario);
-//entrega de dados coletados(SaÌda)
+//entrega de dados coletados(Sa√≠da)
 	printf("\nO seu nome %s\n",Nome);//comando \n para pular uma linha
 	printf("A sua idade e %d\n",Idade);
 	printf("O seu sexo e %c\n",sexo);
