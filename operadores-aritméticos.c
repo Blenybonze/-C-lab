@@ -16,4 +16,4 @@ void main(void)
     printf("a multiplicacao e de %d\n",5*5);
     printf("A divisao e de %d\n",10/2);
     printf("o resultado da divisao e de %d\n",10%5);
-}
+} 
