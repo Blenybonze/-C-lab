@@ -19,5 +19,5 @@ void main(void)
     printf("o meu nome e %s\n",nome);
     printf("o meu sexo e %c\n",sexo);
     printf("a minha idade e %d\n", idade);
-    printf("a minha nota e %f\n",nota);	
+    printf("a minha nota e %f\n",nota);
 }
