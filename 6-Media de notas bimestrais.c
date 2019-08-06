@@ -1,27 +1,42 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Faça um Algoritmo que lê o nome e as 4 notas bimestrais de um aluno. Em Seguida o 
-algoritmo calcula e escreve a média obtida. */
+/* FaÃ§a um Algoritmo que lÃª o nome e as 3 notas trimestrais de um aluno. Em Seguida o
+algoritmo calcula e escreve a mÃ©dia obtida. */
 
-float a,b,c,d,T;
+int i;
+float t1,t2,t3; //trimestres
+float media,nota;
 char nome[15];
-void main(void) {
-	printf("Digite o nome do aluno: ");
-	scanf("%s",&nome);
-	printf("Digite a primeira nota: ");
-	scanf("%f",&a);
-	printf("Digite a segunda nota: ");
-	scanf("%f",&b);
-	printf("Digite a terceira nota: ");
-	scanf("%f",&c);
-	printf("Digite a quarta nota: ");
-	scanf("%f",&d);
-	
-	T=(a+b+c+d)/4;
-	
-	printf("Aluno: %s\n",nome);
-	printf("A media do aluno e: %f",T);
-	getch();
-	
+
+int main()
+{
+    printf("Digite o nome do aluno: ");
+	scanf(" %s",&nome);
+
+	for(i=1;i<=3;i++)
+    {
+	    printf("Digite a nota do %d trimestre: ",i);
+	    scanf(" %f",&nota);
+
+	    switch(i)
+	    {
+            case 1:
+                t1=nota;
+                break;
+            case 2:
+                t2=nota;
+                break;
+            case 3:
+                t3=nota;
+                break;
+	    }
+    }
+
+	media=(t1+t2+t3)/3;
+
+	printf("\nAluno: %s\n",nome);
+	printf("A media do aluno e: %f",media);
+
+	return 0;
 }
