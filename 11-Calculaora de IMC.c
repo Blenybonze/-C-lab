@@ -3,7 +3,7 @@
 
 /*
 Calculadora de IMC: Crie um algorismo que solicite o nome, altura em metros e peso em quilogramas.
-Em seguida Calcule o IMC e após isto, imprima qual o estado atual do IMC da pessoa
+Em seguida Calcule o IMC e apÃ³s isto, imprima qual o estado atual do IMC da pessoa
 (Muito abaixo/abaixo do peso, peso ideal, sobre peso, obesidade, obesidade severa, obesidade morbida)
 */
 
