@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Faça um algoritmo que leia quatro números inteiros, calcule o quadado
+/* FaÃ§a um algoritmo que leia quatro nÃºmeros inteiros, calcule o quadado
 de cada um, some todos e finalmente mostre o resultado. */
 
 
