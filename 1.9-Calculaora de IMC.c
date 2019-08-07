@@ -36,7 +36,7 @@ void main(void)
     else if((imc>=25)&&(imc<30))
     printf("Sobrepeso\n");
 
-    else if((imc>=30)&&(imc<35))
+    else if((imc>=30)&&(imc<35)) 
     printf("Obesidade\n");
 
     else if((imc>=35)&&(imc<40))
