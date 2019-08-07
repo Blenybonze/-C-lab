@@ -12,15 +12,15 @@ char nome[15];
 int main()
 {
     printf("Digite o nome do aluno: ");
-	scanf(" %s",&nome);
+    scanf(" %s",&nome);
 
-	for(i=1;i<=3;i++)
+    for(i=1;i<=3;i++)
     {
-	    printf("Digite a nota do %d trimestre: ",i);
-	    scanf(" %f",&nota);
+	printf("Digite a nota do %d trimestre: ",i);
+	scanf(" %f",&nota);
 
-	    switch(i)
-	    {
+        switch(i)
+        {
             case 1:
                 t1=nota;
                 break;
@@ -30,13 +30,13 @@ int main()
             case 3:
                 t3=nota;
                 break;
-	    }
+	}
     }
 
-	media=(t1+t2+t3)/3;
+    media=(t1+t2+t3)/3;
 
-	printf("\nAluno: %s\n",nome);
-	printf("A media do aluno e: %f",media);
+    printf("\nAluno: %s\n",nome);
+    printf("A media do aluno e: %f",media);
 
-	return 0;
+    return 0;
 }
