@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* O Sr. Manoel Joaquim expandiu seus negÛcios para alÈm dos negÛcios de 1,99 e agora possui uma loja de conveniÍncias.
-FaÁa um programa que implemente uma caixa registradora rudimentar. O programa dever· receber um n˙mero desconhecido de
-valores referentes aos preÁos das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra.
-O programa deve ent„o mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para ent„o calcular
-e mostrar o valor do troco. ApÛs esta operaÁ„o, o programa dever· voltar ao ponto inicial, para registrar a prÛxima compra.
-A saÌda deve ser conforme o exemplo abaixo:
+/* O Sr. Manoel Joaquim expandiu seus neg√≥cios para al√©m dos neg√≥cios de 1,99 e agora possui uma loja de conveni√™ncias.
+Fa√ßa um programa que implemente uma caixa registradora rudimentar. O programa dever√° receber um n√∫mero desconhecido de
+valores referentes aos pre√ßos das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra.
+O programa deve ent√£o mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para ent√£o calcular
+e mostrar o valor do troco. Ap√≥s esta opera√ß√£o, o programa dever√° voltar ao ponto inicial, para registrar a pr√≥xima compra.
+A sa√≠da deve ser conforme o exemplo abaixo:
 
 Lojas Tabajara
 Produto 1: R$ 2.20
@@ -24,9 +24,9 @@ float preco,total,troco;
 int main()
 {
 
-	do
-	{
-	    if(numero==1)
+    do
+    {
+        if(numero==1)
         {
             printf("---Lojas Tabajara---\n");
         }
@@ -48,8 +48,8 @@ int main()
 
             switch(reiniciar)
             {
-		        case 1:
-                	preco=1;
+	        case 1:
+                    preco=1;
             	    printf("\n-------------------------------------------\n");
             	    numero=1;
              	    break;
