@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a metodologia da tabelinha, que j· È um sucesso
-na sua loja de 1,99. VocÍ foi contratado para desenvolver o programa que monta a tabela de preÁos de p„es, de 1 atÈ 50 p„es,
-a partir do preÁo do p„o informado pelo usu·rio:
+/*O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a metodologia da tabelinha, que j√° √© um sucesso
+na sua loja de 1,99. Voc√™ foi contratado para desenvolver o programa que monta a tabela de pre√ßos de p√£es, de 1 at√© 50 p√£es,
+a partir do pre√ßo do p√£o informado pelo usu√°rio:
 
-PreÁo do p„o: R$ 0.18
+Pre√ßo do p√£o: R$ 0.18
 */
 
 int i=0,reiniciar;
@@ -16,24 +16,24 @@ int main()
 
     do
     {
-        printf("----Panificadora Pao de Ontem - Tabela de preÁos----\n");
+        printf("----Panificadora Pao de Ontem - Tabela de pre√ßos----\n");
 
         printf("Quantidade de paes comprados: ");
         scanf("%f",&itens);
 
-	    total=itens*preco;
-	    printf("\nTotal: %f",total);
+	total=itens*preco;
+	printf("\nTotal: %f",total);
 
-	    printf("\nValor pago pelo cliente: ");
+	printf("\nValor pago pelo cliente: ");
         scanf("%f",&troco);
-	    printf("\nTroco: %f",troco-total);
+	printf("\nTroco: %f",troco-total);
 
         printf("\n\nReiniciar?\n[1]-SIM    [2]-Nao\n");
         scanf("%d",&reiniciar);
 
-	    switch(reiniciar)
-	    {
-	        case 1:
+	switch(reiniciar)
+	{
+	    case 1:
                 i=0;
             	printf("\n-------------------------------------------\n");
              	break;
