@@ -9,25 +9,25 @@ float itens=0,preco=1.99,total,troco;
 int main()
 {
 
-	do
-	{
+    do
+    {
         printf("Quantidade de Itens comprados: ");
         scanf("%f",&itens);
 
-	    total=itens*preco;
-	    printf("\nTotal da compra: %f",total);
+	total=itens*preco;
+	printf("\nTotal da compra: %f",total);
 
-	    printf("\nValor pago pelo cliente: ");
-	    scanf("%f",&troco);
-	    printf("\nTroco: %f",troco-total);
+	printf("\nValor pago pelo cliente: ");
+        scanf("%f",&troco);
+	printf("\nTroco: %f",troco-total);
 
         printf("\n\nReiniciar?\n[1]-SIM    [2]-Nao\n");
         scanf("%d",&reiniciar);
 
-		switch(reiniciar)
-        {
-		    case 1:
-            	i=0;
+	switch(reiniciar)
+	{
+	    case 1:
+                i=0;
             	printf("\n-------------------------------------------\n");
              	break;
             case 2:
