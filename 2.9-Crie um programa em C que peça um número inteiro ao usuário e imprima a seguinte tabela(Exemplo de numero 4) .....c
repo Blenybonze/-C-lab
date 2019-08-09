@@ -3,28 +3,28 @@
 
 /*
 Exercicio for:
- Crie um programa em C que peça um número inteiro ao usuário,
+ Crie um programa em C que peÃ§a um nÃºmero inteiro ao usuÃ¡rio,
  e imprima a seguinte tabela de acordo com o numero digitado,
 exemplo caso o numero digitado seja 4:
-
 1
 2 4
 3 6 9
 4 8 12 16*/
 
 
-
-int main() {
-int i,j,n1;	
+int i,j,n1;
+int main()
+{
     printf("Digite um numero: ");
     scanf("%d",&n1);
-    
-    for(i=1;i<=n1;i++){
-    for(j=1;j<=i;j++){
-    printf("%d ",j*i);
-}
-    printf("\n");
-}
-	return 0;
-}
 
+    for(i=1;i<=n1;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d ",j*i);
+        }
+        printf("\n");
+     }
+    return 0;
+}
