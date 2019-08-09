@@ -1,50 +1,46 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* exercicio Do While:
-Fazer uma tabuada de multiplicação de 1 a 10 uma embaixo da outra, e após isso, modificar para ficar uma do lado da outra. 
+// exercicio utilizando Do While:
+//Fazer uma tabuada de multiplicaÃ§Ã£o de 1 a 10 uma embaixo da outra, e apÃ³s isso, modificar para ficar uma do lado da outra.
 
-int main() {
 int n1=1,n2=1;
-
-do{
-    printf("%d x %d = %d   ",n1,n2,n1*n2);
-    n2=n2+1;
-if(n2>=11)
+int main()
 {
-    printf("\n");
-	n2=1;
-    n1=n1+1;
-}
-else{
-}}
-while(n1<=10);
+    do
+    {
+        printf("%d x %d = %d   ",n1,n2,n1*n2);
+        n2=n2+1;
+        if(n2>=11)
+        {
+            printf("\n");
+	    n2=1;
+            n1=n1+1;
+        }
+    }
+    
+    while(n1<=10);
 
-	return 0;
+return 0;
 }
-*/
+
 
 
 /* Exercicio 2 utilizando FOR
-criar tabuada de 1 a 10 de multiplicação utilizando apenas FOR aninhado:
+//criar tabuada de 1 a 10 de multiplicaÃ§Ã£o utilizando apenas FOR aninhado:
 
-int main(){
 int i,j;
-	
-	for(i=1;i<10;i++){
-    
-    for(j=1;j<=10;j++){
-    printf("%d x %d = %d\n",i,j,i*j);
-}   
-    printf("\n");
-}
-	
+int main()
+{
+    for(i=1;i<10;i++)
+    {
+    for(j=1;j<=10;j++)
+    {
+        printf("%d x %d = %d\n",i,j,i*j);
+    }
+        printf("\n");
+    }
 
-    
-    
-    
-	return 0;
+    return 0;
 }
-
 */
-
