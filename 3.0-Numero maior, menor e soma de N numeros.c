@@ -1,39 +1,40 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*r Faça um programa que, dado um conjunto de N números,
+/*r FaÃ§a um programa que, dado um conjunto de N nÃºmeros,
  determine o menor valor, o maior valor e a soma dos valores. */
 
-int main() {
-int i=1,numero,maior=1,menor=1;
-
-do{
-printf("Digite um numero de 1 a 1000: ");
-scanf("%d",&numero);
-
-
-if(i<2){
-menor=maior=numero;
-}
-if(numero>maior){
-maior=numero;
-}
-if(numero<menor){
-menor=numero;
-}
-else if(numero>1000)
+ int i=1,numero,maior=1,menor=1;
+int main()
 {
-printf("Numero invalido.\nDigite Novamente ...\n");
-i=0;
-}
+    do
+    {
+        printf("Digite um numero de 1 a 1000: ");
+        scanf("%d",&numero);
 
-i=i+1;
-}
-while(i<=3);
+        if(i<2)
+            menor=maior=numero;
 
-printf("Numero maior: %d\n",maior);
-printf("Numero menor: %d\n",menor);
-printf("%d + %d = %d",maior,menor,maior+menor);
- 
-	return 0;
+        if(numero>maior)
+           maior=numero;
+
+        if(numero<menor)
+            menor=numero;
+
+        else if(numero>1000)
+        {
+            printf("Numero invalido.\nDigite Novamente ...\n");
+            i=0;
+        }
+
+        i=i+1;
+    }
+    
+    while(i<=3);
+
+    printf("Numero maior: %d\n",maior);
+    printf("Numero menor: %d\n",menor);
+    printf("%d + %d = %d",maior,menor,maior+menor);
+
+    return 0;
 }
