@@ -4,7 +4,7 @@
 
 
  /*O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto
-  indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.*/
+  indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a mÃ©dia das temperaturas.*/
 
 int numtemp, i,j,reset;
 float temperatura, tempmaior, tempmenor, media;
@@ -16,7 +16,6 @@ int main()
         numtemp=0,temperatura=0,media=0,tempmaior=0,tempmenor=0;
         printf("--------------------------\n\nQuantas Temperaturas deseja inserir no programa?: ");
         scanf("%d",&numtemp);
-
 
         for(j=1;j<=numtemp;j++)
         {
@@ -51,14 +50,6 @@ int main()
                 printf("\n\n--------------------------\nPROGRAMA ENCERRADO\n\n");
                 break;
         }
-
     }
-
-
-
-
-
-
-
     return 0;
 }
