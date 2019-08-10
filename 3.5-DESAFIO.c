@@ -7,9 +7,9 @@ int main()
 {
     int numero,espacos,asteriscos,count,linha;
 
-    printf("Digite um número impar: ");
+    printf("Digite um nÃºmero impar: ");
     scanf("%d",&numero);
-   
+    
     if(numero%2!=0)
     {
     	//imprimindo a parte de cima do Diamante
@@ -17,7 +17,7 @@ int main()
     	espacos=(numero-1)/2;
     	for(linha=1;espacos>0;linha++)
     	{
-    		//Espaços
+    		//EspaÃ§os
     		for(count=1;count<=espacos;count++)
     		    printf(" ");
     		
@@ -32,7 +32,7 @@ int main()
 		//imprimindo a parte de baixo do Diamante
 		for(linha=1;asteriscos>0;linha++)
 		{
-			//Espaços
+			//EspaÃ§os
 			for(count=1;count<=espacos;count++)
 			    printf(" ");
 			    
@@ -43,13 +43,8 @@ int main()
 			espacos++;
 			asteriscos-=2;
 			printf("\n");
-		}
-		
-    	
-
-    }
-
-
+		}		
+      }
 }
       
 
