@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Desenvolva um programa que faÁa a tabuada de um n˙mero qualquer inteiro que ser· digitado pelo usu·rio, mas a tabuada n„o deve
-necessariamente iniciar em 1 e terminar em 10, o valor inicial e final devem ser informados tambÈm pelo usu·rio, conforme exemplo
+/*Desenvolva um programa que fa√ßa a tabuada de um n√∫mero qualquer inteiro que ser√° digitado pelo usu√°rio, mas a tabuada n√£o deve
+necessariamente iniciar em 1 e terminar em 10, o valor inicial e final devem ser informados tamb√©m pelo usu√°rio, conforme exemplo
 abaixo:
 
 Montar a tabuada de: 5
 
-ComeÁar por: 4
+Come√ßar por: 4
 Terminar em: 7
 
-Vou montar a tabuada de 5 comeÁando em 4 e terminando em 7:
+Vou montar a tabuada de 5 come√ßando em 4 e terminando em 7:
 5 X 4 = 20
 5 X 5 = 25
 5 X 6 = 30
@@ -31,12 +31,12 @@ int main()
 
         if(inicio<fim)
         {
-            for(j=inicio;j<=fim;j++)
+            for(j=inicio;j<=fim;j++) 
             {
                 printf("%d X %d = %d\n",tabuada,j,tabuada*j);
             }
 
-            printf("Fazer outra operaÁ„o?:\n[1]-SIM    [2]-NAO\n");
+            printf("Fazer outra opera√ß√£o?:\n[1]-SIM    [2]-NAO\n");
             scanf("%d",&reset);
 
             switch(reset)
