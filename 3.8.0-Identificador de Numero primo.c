@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Os números primos possuem várias aplicações dentro da Computação, por exemplo na Criptografia.
- Um número primo é aquele que é divisível apenas por um e por ele mesmo. Faça um programa que peça
- um número inteiro e determine se ele é ou não um número primo.
+/*Os nÃºmeros primos possuem vÃ¡rias aplicaÃ§Ãµes dentro da ComputaÃ§Ã£o, por exemplo na Criptografia.
+ Um nÃºmero primo Ã© aquele que Ã© divisÃ­vel apenas por um e por ele mesmo. FaÃ§a um programa que peÃ§a
+ um nÃºmero inteiro e determine se ele Ã© ou nÃ£o um nÃºmero primo.
 */
 int i,numero,primo=0;
 int main()
@@ -25,5 +25,5 @@ int main()
     else
         printf("Primo\n");
 
-    return 0;
+    return 0; 
 }
