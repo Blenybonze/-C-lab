@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Encontrar números primos é uma tarefa difícil. Faça um programa
-que gera uma lista dos números primos existentes entre 1 e um número
-inteiro informado pelo usuário.
+/*Encontrar nÃºmeros primos Ã© uma tarefa difÃ­cil. FaÃ§a um programa
+que gera uma lista dos nÃºmeros primos existentes entre 1 e um nÃºmero
+inteiro informado pelo usuÃ¡rio.
 */
 int i,numero;
 int main()
@@ -20,5 +20,5 @@ int main()
             printf("%d e Primo\n",i);
     }
 
-    return 0;
+    return 0; 
 }
