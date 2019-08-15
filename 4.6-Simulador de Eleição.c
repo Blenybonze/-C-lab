@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
-Em uma eleiÁ„o presidencial existem quatro candidatos. Os votos s„o informados por meio de cÛdigo. Os cÛdigos utilizados s„o:
+/* 
+Em uma elei√ß√£o presidencial existem quatro candidatos. Os votos s√£o informados por meio de c√≥digo. Os c√≥digos utilizados s√£o:
 
 1 , 2, 3, 4  - Votos para os respectivos candidatos
-(vocÍ deve montar a tabela ex: 1 - Jose/ 2- Jo„o/etc)
+(voc√™ deve montar a tabela ex: 1 - Jose/ 2- Jo√£o/etc)
 5 - Voto Nulo
 6 - Voto em Branco
 
-FaÁa um programa que calcule e mostre:
+Fa√ßa um programa que calcule e mostre:
 O total de votos para cada candidato;
 O total de votos nulos;
 O total de votos em branco;
