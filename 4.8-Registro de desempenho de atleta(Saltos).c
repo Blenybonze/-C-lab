@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /*
-Em uma competição de salto em distância cada atleta tem direito a cinco saltos. No final da série de saltos de cada atleta, o melhor e o pior
- resultados são eliminados. O seu resultado fica sendo a média dos três valores restantes. Você deve fazer um programa que receba o nome e
- as cinco distâncias alcançadas pelo atleta em seus saltos e depois informe a média dos saltos conforme a descrição acima informada (retirar
-o melhor e o pior salto e depois calcular a média). Faça uso de uma lista para armazenar os saltos. Os saltos são informados na ordem da execução,
-portanto não são ordenados. O programa deve ser encerrado quando não for informado o nome do atleta. A saída do programa deve ser conforme o exemplo abaixo:
+Em uma competiÃ§Ã£o de salto em distÃ¢ncia cada atleta tem direito a cinco saltos. No final da sÃ©rie de saltos de cada atleta, o melhor e o pior
+ resultados sÃ£o eliminados. O seu resultado fica sendo a mÃ©dia dos trÃªs valores restantes. VocÃª deve fazer um programa que receba o nome e
+ as cinco distÃ¢ncias alcanÃ§adas pelo atleta em seus saltos e depois informe a mÃ©dia dos saltos conforme a descriÃ§Ã£o acima informada (retirar
+o melhor e o pior salto e depois calcular a mÃ©dia). FaÃ§a uso de uma lista para armazenar os saltos. Os saltos sÃ£o informados na ordem da execuÃ§Ã£o,
+portanto nÃ£o sÃ£o ordenados. A saÃ­da do programa deve ser conforme o exemplo abaixo:
 
-Atleta: Rodrigo Curvêllo
+Atleta: Rodrigo CurvÃªllo
 
 Primeiro Salto: 6.5 m
 Segundo Salto: 6.1 m
@@ -18,10 +18,10 @@ Quinto Salto: 5.3 m
 
 Melhor salto:  6.5 m
 Pior salto: 5.3 m
-Média dos demais saltos: 5.9 m
+MÃ©dia dos demais saltos: 5.9 m
 
 Resultado final:
-Rodrigo Curvêllo: 5.9 m
+Rodrigo CurvÃªllo: 5.9 m
 
 */
 
